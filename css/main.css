@@ -126,12 +126,13 @@ table {
 }
 
 #nav li {
-	font-family: 'Josefin Sans', sans-serif;
+	display: inline-block;
+	font-family: 'Avenir Next', sans-serif;
 	font-size: 18px;
+	font-weight: 100;
 	width: 100px;
 	text-align: center;
 	text-transform: uppercase;
-	display: inline-block;
 }
 
 #nav li a {
@@ -236,8 +237,8 @@ table {
 }
 
 #menu-nav li {
-	font-family: 'Lato', sans-serif;
-	font-weight: 100;
+	font-family: 'Avenir Next', sans-serif;
+	font-weight: 400;
 	font-size: 16px;
 	display: inline-block;
 	margin: 0 auto;
@@ -272,9 +273,10 @@ table {
 
 .menu h2 {
 	border-bottom: 1px solid #aaa;
-	font-family: 'Avenir Next' sans-serif;
+	color: #666;
+	font-family: 'Oswald' sans-serif;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 24px;
 	margin: 50px 0 10px 0;
 	padding-bottom: 7px;
 }
@@ -282,27 +284,27 @@ table {
 .menu li {
 	color: #000;
 	font-family: 'Avenir Next', sans-serif;
-	font-size: 16px;
-	font-weight: 500;
+	font-size: 17px;
+	font-weight: 400;
 	line-height: 30px;
 }
 
 .menu p {
 	font-family: 'Avenir Next', sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 25px;
 	padding-bottom: 15px;
 	padding-top: 5px;
 }
 
 .menu .price {
-	color: #999;
-	font-size: 14px;
+	color: #666;
+	font-size: 15px;
 }
 
 .menu .detail {
 	font-family: 'Avenir Next', sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 100;
 }
 
@@ -435,9 +437,9 @@ table {
 }
 
 sup {
-font-size: 75%;
-line-height: 0;
-position: relative;
-top: -0.5em;
-vertical-align: baseline;
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	top: -0.5em;
+	vertical-align: baseline;
 }
