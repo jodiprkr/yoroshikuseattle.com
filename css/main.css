@@ -72,6 +72,15 @@ table {
 	width: 100%;
 }
 
+.wrap-col-1 {
+	margin: 0 500px 0 20px;
+	width: 500px;
+}
+
+.wrap-col-2 {
+	margin: 0 20px 0 800px;
+	width: 500px;
+}
 
 .wrap-lg {
 	margin: 0 auto;
@@ -255,8 +264,74 @@ table {
 	transition: all 0.3s ease-in-out;
 }
 
-.menu {
-	margin-top: 200px;
+#dish-intro-1 {
+	margin: -530px 0 315px 0;
+	padding: 30px;
+	position: relative;
+}
+
+#dish-intro-1 h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 70px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#dish-intro-2 {
+	margin: -530px 0 315px 0;
+	padding: 30px;
+	position: absolute;
+}
+
+#dish-intro-2 h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 60px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#dish-intro-2 h2 {
+	color: #fff;
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 50px;
+	font-weight: 100;
+	line-height: 60px;
+	padding-top: 10px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.menu-items li {
+	color: #000;
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.menu-items p {
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 17px;
+	line-height: 25px;
+	padding-bottom: 15px;
+	padding-top: 5px;
+}
+
+.menu-items .price {
+	color: #666;
+	font-size: 15px;
+}
+
+.menu-items .detail {
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 17px;
+	font-weight: 100;
 }
 
 .menu h1 {
