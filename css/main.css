@@ -83,7 +83,7 @@ table {
 }
 
 .wrap-col-2 {
-	margin: 0 20px 0 800px;
+	margin: 0 20px 0 820px;
 	width: 700px;
 }
 
@@ -222,11 +222,11 @@ table {
 
 #menu-intro {
 	border-style: solid;
-	border-width: 10px;
+	border-width: 8px;
 	border-color: #fff;
 	position: relative;
 	margin: -790px 0 535px 0;
-	padding: 30px;
+	padding: 50px;
 }
 
 #menu-intro h1 {
@@ -284,7 +284,7 @@ table {
 }
 
 #tsuke-lunch {
-	margin: -530px 0 315px 0;
+	margin: -530px 0 365px 0;
 	padding: 30px;
 	position: relative;
 }
@@ -314,6 +314,55 @@ table {
 	margin: -530px 0 315px 0;
 	padding: 30px;
 	position: relative;
+}
+
+#small-cold {
+	margin: -650px 0 620px 0;
+	position: relative;
+	width: 500px;
+}
+
+#small-cold h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 60px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#small-hot {
+	margin: -680px 0 500px 0;
+	padding: 30px;
+	position: relative;
+	width: 300px;
+}
+
+#small-hot h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 70px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#sake {
+	margin: -650px 0 620px 0;
+	position: relative;
+	width: 500px;
+}
+
+#sake h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 60px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .menu-items h2 {
@@ -346,7 +395,7 @@ table {
 .menu-items p {
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 20px;
-	line-height: 25px;
+	line-height: 32px;
 	margin-bottom: 60px;
 	text-align: center;
 }
@@ -360,7 +409,7 @@ table {
 
 .menu-items .price {
 	color: #000;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .menu-items .detail {
