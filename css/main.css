@@ -111,7 +111,7 @@ table {
 
 .bg img {
 	margin-bottom: 60px;
-	margin-top: 80px;
+	margin-top: 20px;
 	width: 100%;
 }
 
@@ -238,34 +238,53 @@ table {
 	text-align: center;
 }
 
-#menu-nav {
-	margin-left: 570px;
-	box-shadow: 0 1px 0 #666;
-	-moz-box-shadow: 0 1px 0 #fff;
-	-webkit-box-shadow: 0 1px 0 #fff;
+.sub-nav {
+	background-color: #fff;
+	display: block;
+	margin-left: 540px;
+	margin-top: 110px;
+	position: fixed;
 }
 
-#menu-nav li {
+.sub-nav dl { 
+	display: inline;
+	width: auto; 
+	height: 27px; 
+	margin: 0 auto; 
+}
+
+.sub-nav dd {
+	color: #666;
 	font-family: 'Avenir Next', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
-	display: inline-block;
-	margin: 0 auto;
-	padding: 0 10px 20px 10px;
-	text-align: center;
+	display: inline;
 }
 
-#menu-nav li a {
-	color: #000;
-	text-decoration: none;
-}
+.sub-nav a { 
+	text-decoration: none; 
+	margin-left: 6px; 
+	padding: 5px 12px;
+ 	-webkit-border-radius: 2px; 
+ 	-moz-border-radius: 12px; 
+ }
 
-#menu-nav li a:hover {
-	color: #5CE62E;
+.sub-nav a:hover { 
+	background: rgba(92, 230, 46, .5); 
+	color: #fff; 
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+}
+
+.sub-nav .active a { 
+	background: #fff;
+	border-color: #5CE62E; 
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 2px;
+	color: #666; 
 }
 
 #ramen-lunch {
