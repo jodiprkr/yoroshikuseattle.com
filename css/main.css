@@ -162,12 +162,16 @@ table {
 	transition: all 0.3s ease-in-out;
 }
 
+#nav .active a {
+	color: #5CE62E;
+}
+
 .sub-nav {
-	background-color: #fff;
+	background: rgba(92, 230, 46, .75);
 	box-shadow: 0px 0px 5px #666;
 	display: block;
 	height: 80px;
-	margin-top: -30px;
+	margin-top: 5px;
 	position: fixed;
 	width: 100%;
 	z-index: 1;
@@ -187,6 +191,7 @@ table {
 }
 
 .sub-nav a { 
+	color: #666;
 	text-decoration: none; 
 	margin-left: 6px; 
 	padding: 5px 12px;
@@ -195,7 +200,7 @@ table {
  }
 
 .sub-nav a:hover { 
-	background: rgba(92, 230, 46, .5); 
+	background: rgba(92, 230, 46, .75); 
 	color: #fff; 
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -204,12 +209,9 @@ table {
 }
 
 .sub-nav .active a { 
-	background: #fff;
-	border-color: #5CE62E; 
-	border-radius: 2px;
-	border-style: solid;
-	border-width: 2px;
-	color: #666; 
+	background: rgba(92, 230, 46, .75);
+	border-radius: 2px; 
+	color: #fff; 
 }
 
 #home-intro {
@@ -271,7 +273,7 @@ table {
 }
 
 #menu {
-	margin-top: 100px;
+	margin-top: 65px;
 }
 
 #menu-intro {
@@ -294,7 +296,7 @@ table {
 }
 
 #lunch {
-	margin-top: 100px;
+	margin-top: 65px;
 }
 
 #ramen-lunch {
@@ -346,7 +348,7 @@ table {
 }
 
 #dinner {
-	margin-top: 100px;
+	margin-top: 65px;
 }
 
 #small-cold {
@@ -383,7 +385,7 @@ table {
 }
 
 #drink-menu {
-	margin-top: 100px;
+	margin-top: 65px;
 }
 
 #sake {
@@ -476,7 +478,7 @@ table {
 }
 
 #happy-hour {
-	margin-top: 100px;
+	margin-top: 65px;
 }
 
 #disclaimers {
