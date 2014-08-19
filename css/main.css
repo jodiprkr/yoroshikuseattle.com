@@ -62,17 +62,17 @@ table {
 /* Style 
 /////////////////////////////////////////////////////////////////// */
 
-.wrap-sm {
+.wrap-med {
 	margin: 0 auto;
 	width: 950px;
 }
 
-.wrap-sm img {
+.wrap-med img {
 	margin: 40px 0;
 	width: 100%;
 }
 
-.wrap-med {
+.wrap-sm {
 	margin: 0 auto;
 	width: 600px;
 }
@@ -230,9 +230,9 @@ table {
 #about p {
 	color: #666;
 	font-family: 'Avenir Next', sans-serif;
-	font-size: 22px;
+	font-size: 26px;
 	font-weight: 100;
-	line-height: 40px;
+	line-height: 50px;
 	margin-bottom: 30px;
 }
 
@@ -242,12 +242,15 @@ table {
 	font-size: 30px;
 	font-style: normal;
 	font-weight: 700;
-	text-align: left;
+	text-align: center;
 	text-transform: uppercase;
 	margin-top: 180px;
 	padding-bottom: 25px;
 }
 
+#about img {
+	margin-top: 100px;
+}
 
 #about-intro p {
 	font-family: 'Lato', sans-serif;
@@ -281,7 +284,8 @@ table {
 	border-width: 8px;
 	border-color: #fff;
 	position: relative;
-	margin: -790px 0 500px 0;
+	margin-bottom: 510px;
+	margin-top: -790px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	width: 100%;
@@ -353,9 +357,9 @@ table {
 }
 
 #small-cold {
-	margin: -650px 0 620px 0;
+	margin: -650px 0 620px 80px;
 	position: relative;
-	width: 500px;
+	width: 400px;
 }
 
 #small-cold h1 {
@@ -363,8 +367,8 @@ table {
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	font-weight: 100;
-	line-height: 60px;
-	text-align: left;
+	line-height: 65px;
+	text-align: right;
 	text-transform: uppercase;
 }
 
@@ -377,6 +381,21 @@ table {
 
 #small-hot h1 {
 	color: #2E2E2E;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 70px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#dessert {
+	margin: -610px 0 500px 80px;
+	position: relative;
+}
+
+#dessert h1 {
+	color: #fff;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	font-weight: 100;
@@ -552,6 +571,7 @@ table {
 
 #footer {
 	display: block;
+	margin: 0 auto;
 	width: 100%;
 }
 
@@ -559,13 +579,11 @@ table {
 	color: #666;
 	font-family: 'Arial', sans-serif;
 	font-size: 11px;
-	margin: 0 auto;
 	padding: 10px 0 20px 0;
 	text-align: center;
 }
 
 #social {
-	margin: 0 auto;
 	text-align: center;
 }
 
