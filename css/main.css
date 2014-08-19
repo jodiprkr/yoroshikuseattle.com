@@ -62,9 +62,15 @@ table {
 /* Style 
 /////////////////////////////////////////////////////////////////// */
 
+
+.wrap-sm {
+	margin: 0 auto;
+	width: 600px;
+}
+
 .wrap-med {
 	margin: 0 auto;
-	width: 950px;
+	width: 900px;
 }
 
 .wrap-med img {
@@ -72,9 +78,10 @@ table {
 	width: 100%;
 }
 
-.wrap-sm {
+.wrap-lg {
 	margin: 0 auto;
-	width: 600px;
+	max-width: 1400px;
+	min-width: 1024px;
 }
 
 .wrap-col-1 {
@@ -85,22 +92,6 @@ table {
 .wrap-col-2 {
 	margin: 0 20px 0 820px;
 	width: 700px;
-}
-
-.wrap-col-3 {
-	margin: 0 auto;
-	width: 500px;
-}
-
-.wrap-lg {
-	margin: 0 auto;
-	max-width: 1400px;
-	min-width: 1024px;
-}
-
-.wrap-3 {
-	margin: 100px 0 100px 150px;
-	width: 625px;
 }
 
 .bg {
@@ -249,7 +240,8 @@ table {
 }
 
 #about img {
-	margin-top: 100px;
+	box-shadow: 0px 0px 5px #666;
+	margin-top: 200px;
 }
 
 #about-intro p {
