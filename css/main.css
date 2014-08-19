@@ -299,13 +299,13 @@ table {
 	margin-top: 65px;
 }
 
-#ramen-lunch {
+#ramen-intro {
 	margin: -680px 0 500px 0;
 	padding: 30px;
 	position: relative;
 }
 
-#ramen-lunch h1 {
+#ramen-intro h1 {
 	color: #fff;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
@@ -315,13 +315,13 @@ table {
 	text-transform: uppercase;
 }
 
-#tsuke-lunch {
+#tsuke-intro {
 	margin: -530px 0 365px 0;
 	padding: 30px;
 	position: relative;
 }
 
-#tsuke-lunch h1 {
+#tsuke-intro h1 {
 	color: #2E2E2E;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
@@ -331,7 +331,7 @@ table {
 	text-transform: uppercase;
 }
 
-#tsuke-lunch h2 {
+#tsuke-intro h2 {
 	color: #000;
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 50px;
@@ -351,13 +351,13 @@ table {
 	margin-top: 65px;
 }
 
-#small-cold {
+#sm-cold-intro {
 	margin: -650px 0 570px 80px;
 	position: relative;
 	width: 400px;
 }
 
-#small-cold h1 {
+#sm-cold-intro h1 {
 	color: #fff;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
@@ -367,14 +367,14 @@ table {
 	text-transform: uppercase;
 }
 
-#small-hot {
+#sm-hot-intro {
 	margin: -680px 0 500px 0;
 	padding: 30px;
 	position: relative;
 	width: 300px;
 }
 
-#small-hot h1 {
+#sm-hot-intro h1 {
 	color: #2E2E2E;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
@@ -384,12 +384,12 @@ table {
 	text-transform: uppercase;
 }
 
-#dessert {
+#dessert-intro {
 	margin: -610px 0 535px 80px;
 	position: relative;
 }
 
-#dessert h1 {
+#dessert-intro h1 {
 	color: #fff;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
