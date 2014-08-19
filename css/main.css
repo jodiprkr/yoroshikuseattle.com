@@ -101,7 +101,6 @@ table {
 }
 
 .bg img {
-	margin-bottom: 60px;
 	margin-top: 20px;
 	width: 100%;
 }
@@ -218,6 +217,10 @@ table {
 	text-transform: uppercase;
 }
 
+#about {
+	margin-top: 100px;
+}
+
 #about p {
 	color: #666;
 	font-family: 'Avenir Next', sans-serif;
@@ -241,7 +244,6 @@ table {
 
 #about img {
 	box-shadow: 0px 0px 5px #666;
-	margin-top: 200px;
 }
 
 #about-intro p {
@@ -266,6 +268,7 @@ table {
 }
 
 #menu {
+	margin-bottom: 50px;
 	margin-top: 65px;
 }
 
@@ -562,8 +565,10 @@ table {
 }
 
 #footer {
+	box-shadow: 0px 0px 5px #666;
 	display: block;
 	margin: 0 auto;
+	padding-top: 10px;
 	width: 100%;
 }
 
