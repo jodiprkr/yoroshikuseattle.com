@@ -24,14 +24,17 @@
     <body>      
 
         <div class="header">
-            <ol id="nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li class="active"><a href="menu.html">Menu</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ol><!-- /#.nav -->
+            <div class="wrap-lg">
+                <ol id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ol><!-- /#.nav -->
+            </div>
         </div><!-- /.header -->
 
+        
         <section class="sub-nav">
             <dl>
                 <dd><a href="lunch.html">Lunch</a></dd>
@@ -41,24 +44,29 @@
             </dl>
         </section>
 
-        <div class="bg" id="happy-hour">
+        <div class="bg" id="dinner">
             <img src="img/sm-cold.jpg" alt="" />
         </div><!-- /.bg-->
 
-        <div class="wrap-col-1" class="group">
-            <section class="menu">
+        <div class="wrap-col-2">
+            <section id="hh-intro">
+                <h1>Happy Hour</h1>
+            </section><!-- /#hh-intro --> 
+        </div><!-- /.wrap-col-2 -->
+
+        <div class="wrap-sm">
+            <section class="menu-items">
                 <h1>Happy Hour Menu</h1>
                 <p>Tuesday through Saturday 5-7pm. Everything $3</p>
 
                     <h2>Drinks</h2>
+                        
+                        <!-- drinks for happy hour menu
                         <ol>
-                            <li>Pickled Japanese Cucumber (V/WF) <span class="detail">lightly salted</span></li>
-                            <li>Citrus Soy Salad (V/WF) <span class="detail">bean sprouts, bamboo shoots, kikurage, wakame, cucumber, ponzu vinaigrette</span></li>
-                            <li>Mashed Tofu Salad with Fuji Apple (V/WF) <span class="detail">fuji apple, shungiku, tofu sauce</span></li>
-                            <li>Spicy Pork with Crispy Chips <span class="detail">roasted pork, scallions, fried gyoza skin</span></li>
-                            <li>Wild Salmon Carpaccio (WF/*) <span class="detail">wild Alaskan sockeye salmon, shiso sesame drizzle</span></li>
-                            <li>Calamari Jerky Tempura</li>
+                            <li></li> 
+                            <p><span class="detail"></span></p> 
                         </ol>
+                        -->
 
                     <h2>Food</h2>
                         <ol>
@@ -73,14 +81,15 @@
                             <li>Tsukune (WF) <span class="detail">grilled local, free-range chicken</span> (sous vide egg <span class="price"> 1.5</span>)</li>
                             <li>Local Pork Belly (WF) <span class="detail">natural, grass-fed pork belly from Carlton Farms, OR</span></li>
                         </ol>
-                    </div><!-- /.wrap-col-1 -->
+            </section><!-- /.menu-->
+        </div><!-- /.wrap-sm-->
 
-                    <div class="wrap-col-2" id="disclaimers">
+            <!-- disclaimers 
+
                         <p><span>(V)</span> Denotes vegetarian items.</p> 
                         <p><span>(WF)</span> Denotes items that are wheat-free by recipe. Please note that all dishes are prepared in a common kitchen with the risk of gluten exposure.</p>
                         <p><span>*</span> Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness.</p>
-                    </div><!-- /.wrap-col-2-->
-            </section><!-- /.menu-->
+            -->
 
         <div id="footer">
             <ul id="social">

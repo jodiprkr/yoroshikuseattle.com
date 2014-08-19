@@ -419,6 +419,22 @@ table {
 	text-transform: uppercase;
 }
 
+#hh-intro {
+	margin: -650px 0 570px 80px;
+	position: relative;
+	width: 400px;
+}
+
+#hh-intro h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 65px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
 .menu-items {
 	padding: 40px 0;
 }
@@ -496,9 +512,6 @@ table {
 	margin-bottom: 40px;
 }
 
-#happy-hour {
-	margin-top: 65px;
-}
 
 #disclaimers {
 	border-style: solid;
