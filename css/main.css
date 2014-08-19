@@ -218,7 +218,7 @@ table {
 }
 
 #about {
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 #about p {
@@ -352,7 +352,7 @@ table {
 }
 
 #small-cold {
-	margin: -650px 0 620px 80px;
+	margin: -650px 0 570px 80px;
 	position: relative;
 	width: 400px;
 }
@@ -385,7 +385,7 @@ table {
 }
 
 #dessert {
-	margin: -610px 0 500px 80px;
+	margin: -610px 0 535px 80px;
 	position: relative;
 }
 
@@ -417,6 +417,10 @@ table {
 	line-height: 60px;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.menu-items {
+	padding: 40px 0;
 }
 
 .menu-items h2 {
