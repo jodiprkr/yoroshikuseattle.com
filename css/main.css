@@ -419,8 +419,13 @@ table {
 	text-transform: uppercase;
 }
 
+#happy-hour {
+	margin-bottom: 50px;
+	margin-top: 65px;
+}
+
 #hh-intro {
-	margin: -650px 0 570px 80px;
+	margin: -600px 0 570px 80px;
 	position: relative;
 	width: 400px;
 }
@@ -437,6 +442,17 @@ table {
 
 .menu-items {
 	padding: 40px 0;
+}
+
+.menu-items h1 {
+	color: #666;
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .menu-items h2 {
