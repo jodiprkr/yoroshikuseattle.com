@@ -425,9 +425,9 @@ table {
 }
 
 #hh-intro {
-	margin: -600px 0 570px 80px;
+	margin-top: -600px ;
+	padding-right: 50px;
 	position: relative;
-	width: 400px;
 }
 
 #hh-intro h1 {
