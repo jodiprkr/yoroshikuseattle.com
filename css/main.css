@@ -168,12 +168,12 @@ table {
 }
 
 .sub-nav dl {
-	margin-left: 550px;
+	margin-left: 535px;
 	margin-top: 40px;
 }
 
 .sub-nav dd {
-	color: #666;
+	color: rgba(0, 0, 0, .85);
 	font-family: 'Avenir Next', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -190,8 +190,7 @@ table {
  }
 
 .sub-nav a:hover { 
-	background: rgba(255, 255, 255, .85); 
-	color: #000; 
+	color: rgba(0, 0, 0, .85); 
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -199,7 +198,7 @@ table {
 }
 
 .sub-nav .active a { 
-	color: #000;
+	color: rgba(0, 0, 0, .8);
 }
 
 #home-intro {
@@ -477,7 +476,7 @@ table {
 }
 
 .menu-items li {
-	color: #000;
+	color: rgba(0, 0, 0, .85);
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 24px;
 	font-weight: 400;
