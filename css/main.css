@@ -90,8 +90,8 @@ table {
 }
 
 .wrap-col-2 {
-	margin:;
-	width: 700px;
+	float: right;
+	margin: 0 20px 0 500px;
 }
 
 .bg {
