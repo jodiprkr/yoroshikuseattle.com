@@ -97,12 +97,12 @@ table {
 .bg {
 	margin: 0 auto;
 	max-width: 1440px;
-	min-width: 1080px;
+	min-width: 1440px;
 }
 
 .bg img {
 	margin-top: 20px;
-	width: 100%;
+	width: 100%
 }
 
 .group:after {
