@@ -137,7 +137,7 @@ table {
 #logo h1 {
 	font-family: 'Oswald', sans-serif;
 	color: #000;
-	font-size: 45px;
+	font-size: 38px;
 	font-weight: 100;
 	text-align: center;
 	text-transform: uppercase;
@@ -203,8 +203,7 @@ table {
 	font-weight: 400;
 	font-size: 16px;
 	display: inline-block;
-	padding: 40px 0;
-	width: 90px;
+	padding: 40px 0 40px 30px;
 	text-align: center;
 }
 
@@ -284,7 +283,7 @@ table {
 
 #menu {
 	margin-bottom: 50px;
-	margin-top: 130px;
+	margin-top: 125px;
 }
 
 #menu-intro {
@@ -312,7 +311,7 @@ table {
 
 #lunch {
 	margin-bottom: 50px;
-	margin-top: 130px;
+	margin-top: 125px;
 }
 
 #ramen-intro {
@@ -358,13 +357,8 @@ table {
 	text-transform: uppercase;
 }
 
-#additions {
-	margin: 0px 0 100px 0;
-	position: relative;
-}
-
 #dinner {
-	margin-top: 130px;
+	margin-top: 125px;
 }
 
 #sm-cold-intro {
@@ -415,7 +409,7 @@ table {
 }
 
 #drink-menu {
-	margin-top: 130px;
+	margin-top: 125px;
 }
 
 .drinks {
@@ -511,7 +505,7 @@ table {
 
 #happy-hour {
 	margin-bottom: 50px;
-	margin-top: 130px;
+	margin-top: 125px;
 }
 
 #hh-intro {
@@ -617,16 +611,16 @@ table {
 
 
 #disclaimers {
-	margin: 0 auto;
+	margin: 100px auto 40px auto;
 	padding: 20px;
 }
 
 #disclaimers p {
-	color: #666;
+	color: #999;
 	font-family: 'Verdana', sans-serif;
 	font-size: 12px;
 	font-weight: 100;
-	line-height: 30px;
+	line-height: 20px;
 	text-align: center;
 }
 
@@ -636,7 +630,7 @@ table {
 }
 
 #contact {
-	margin-top: 130px;
+	margin-top: 125px;
 }
 
 #contact-info {
