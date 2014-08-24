@@ -530,10 +530,6 @@ table {
 	text-transform: uppercase;
 }
 
-.menu-items {
-	padding: 40px 0;
-}
-
 .menu-items h1 {
 	color: #666;
 	font-family: 'Avenir Next', sans-serif;
@@ -621,24 +617,22 @@ table {
 
 
 #disclaimers {
-	border-style: solid;
-	border-width: 4px;
-	border-color: #5CD65C;
 	margin: 0 auto;
 	padding: 20px;
 }
 
 #disclaimers p {
-	color: #000;
-	font-family: 'Avenir Next', sans-serif;
-	font-weight: 400;
+	color: #666;
+	font-family: 'Verdana', sans-serif;
+	font-size: 12px;
+	font-weight: 100;
 	line-height: 30px;
-	padding: 5px 10px;
+	text-align: center;
 }
 
 #disclaimers span {
 	color: #33CC33;
-	font-size: 16px;
+	font-size: 13px;
 }
 
 #contact {
