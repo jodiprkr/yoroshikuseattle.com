@@ -311,6 +311,7 @@ table {
 }
 
 #lunch {
+	margin-bottom: 50px;
 	margin-top: 130px;
 }
 
@@ -597,8 +598,9 @@ table {
 
 .menu-items .price {
 	color: #A3A3A3;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 100;
+	margin-left: 4px;
 }
 
 .menu-items .detail {
@@ -622,10 +624,8 @@ table {
 	border-style: solid;
 	border-width: 4px;
 	border-color: #5CD65C;
-	top: 300px;
-	right: 50px;
-	position: fixed;
-	padding: 10px;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 #disclaimers p {
@@ -637,11 +637,12 @@ table {
 }
 
 #disclaimers span {
-	font-weight: 700;
+	color: #33CC33;
+	font-size: 16px;
 }
 
 #contact {
-	margin-top: 70px;
+	margin-top: 130px;
 }
 
 #contact-info {
