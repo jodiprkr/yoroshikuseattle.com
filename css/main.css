@@ -128,6 +128,26 @@ table {
     z-index: 99;
 }
 
+#logo {
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 225px;
+}
+
+#logo h1 {
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	font-size: 45px;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#logo a {
+	color: #000;
+	text-decoration: none;
+}
+
 #nav {
 	margin: 0 auto;
 	width: 415px;
@@ -208,19 +228,8 @@ table {
 	color: rgba(0, 0, 0, .8);
 }
 
-#home-intro {
-	margin: -580px 0 315px 0;
-	padding: 30px;
-	position: relative;
-}
-
-#home-intro h1 {
-	color: #fff;
-	font-family: 'Oswald', sans-serif;
-	font-size: 160px;
-	font-weight: 100;
-	text-align: center;
-	text-transform: uppercase;
+#main {
+	margin-top: 130px;
 }
 
 #about {
@@ -275,7 +284,7 @@ table {
 
 #menu {
 	margin-bottom: 50px;
-	margin-top: 65px;
+	margin-top: 130px;
 }
 
 #menu-intro {
@@ -302,7 +311,7 @@ table {
 }
 
 #lunch {
-	margin-top: 65px;
+	margin-top: 130px;
 }
 
 #ramen-intro {
@@ -354,7 +363,7 @@ table {
 }
 
 #dinner {
-	margin-top: 65px;
+	margin-top: 130px;
 }
 
 #sm-cold-intro {
@@ -405,7 +414,7 @@ table {
 }
 
 #drink-menu {
-	margin-top: 65px;
+	margin-top: 130px;
 }
 
 .drinks {
@@ -501,7 +510,7 @@ table {
 
 #happy-hour {
 	margin-bottom: 50px;
-	margin-top: 65px;
+	margin-top: 130px;
 }
 
 #hh-intro {
