@@ -231,6 +231,7 @@ table {
 }
 
 #about {
+	margin-bottom: 100px;
 	margin-top: 200px;
 }
 
@@ -249,11 +250,22 @@ table {
 	margin-bottom: 10px;
 }
 
+#about p {
+	color: rgba(0, 0, 0, .75);
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
 #about figcaption {
 	color: #666;
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 18px;
 	font-weight: 100;
+	margin-bottom: 70px;
 }
 
 #about .italic {
