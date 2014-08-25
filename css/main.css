@@ -256,14 +256,11 @@ table {
 	font-weight: 100;
 }
 
-#about p {
+#about .italic {
 	color: #666;
 	font-family: 'Avenir Next', sans-serif;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 50px;
-	margin-bottom: 30px;
-	margin-top: 50px;
+	font-size: 22px;
+	font-style: italic;
 }
 
 #menu {
@@ -487,13 +484,14 @@ table {
 }
 
 #hh-intro {
+	margin-bottom: 600px;
 	margin-top: -600px ;
 	padding-right: 50px;
 	position: relative;
 }
 
 #hh-intro h1 {
-	color: #fff;
+	color: #2E2E2E;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	font-weight: 100;
@@ -608,7 +606,7 @@ table {
 }
 
 #contact {
-	margin-top: 125px;
+	margin-top: 200px;
 }
 
 #contact-info {
