@@ -89,8 +89,7 @@ table {
 }
 
 .wrap-col-2 {
-	float: right;
-	margin: 0 20px 0 500px;
+	margin-left: 800px;
 }
 
 .wrap-col-3 {
@@ -107,7 +106,6 @@ table {
 
 .bg img {
 	margin-top: 20px;
-	position: absolute;
 	width: 100%;
 }
 
@@ -319,6 +317,7 @@ table {
 }
 
 #ramen-intro {
+	margin: -680px auto 500px auto;
 	padding: 30px;
 	position: relative;
 }
@@ -329,7 +328,6 @@ table {
 	font-size: 60px;
 	font-weight: 100;
 	line-height: 70px;
-	margin: 50% 0;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -366,7 +364,7 @@ table {
 }
 
 #sm-cold-intro {
-	margin: -650px 0 570px 80px;
+	margin: -650px 0 570px 200px;
 	position: relative;
 	width: 400px;
 }
@@ -414,6 +412,23 @@ table {
 
 #drink-menu {
 	margin-top: 162px;
+}
+
+#drinks-intro {
+	margin-bottom: 475px;
+	margin-top: -475px;
+	position: relative;
+	width: 500px;
+}
+
+#drinks-intro h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 60px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .drinks {
@@ -482,22 +497,6 @@ table {
 	font-size: 20px;
 	font-weight: 100;
 	text-align: center;
-}
-
-#drinks-intro {
-	margin-top: -400px;
-	position: relative;
-	width: 500px;
-}
-
-#drinks-intro h1 {
-	color: #fff;
-	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
-	font-weight: 100;
-	line-height: 60px;
-	text-align: center;
-	text-transform: uppercase;
 }
 
 #happy-hour {
