@@ -326,12 +326,11 @@ table {
 }
 
 #lunch {
-	margin-bottom: 50px;
 	margin-top: 125px;
 }
 
 #ramen-intro {
-	margin: -680px auto 500px auto;
+	margin: -680px auto 577px auto;
 	padding: 30px;
 	position: relative;
 }
@@ -347,7 +346,7 @@ table {
 }
 
 #tsuke-intro {
-	margin: -530px 0 365px 0;
+	margin: -530px 0 437px 0;
 	padding: 30px;
 	position: relative;
 }
@@ -377,13 +376,13 @@ table {
 	margin-top: 125px;
 }
 
-#sm-cold-intro {
-	margin: -650px 0 570px 200px;
+#cold-intro {
+	margin: -650px 0 682px 200px;
 	position: relative;
 	width: 400px;
 }
 
-#sm-cold-intro h1 {
+#cold-intro h1 {
 	color: #fff;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
@@ -392,14 +391,14 @@ table {
 	text-transform: uppercase;
 }
 
-#sm-hot-intro {
-	margin: -680px 0 500px 0;
+#hot-intro {
+	margin: -680px 0 647px 0;
 	padding: 30px;
 	position: relative;
 	width: 300px;
 }
 
-#sm-hot-intro h1 {
+#hot-intro h1 {
 	color: #2E2E2E;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
@@ -410,7 +409,7 @@ table {
 }
 
 #dessert-intro {
-	margin: -610px 0 570px 80px;
+	margin: -610px 0 636px 80px;
 	position: relative;
 }
 
@@ -429,7 +428,7 @@ table {
 }
 
 #drinks-intro {
-	margin-bottom: 475px;
+	margin-bottom: 512px;
 	margin-top: -475px;
 	position: relative;
 	width: 500px;
@@ -539,12 +538,15 @@ table {
 	text-transform: uppercase;
 }
 
+.menu-items {
+	margin: 100px auto;
+}
+
 .menu-items h1 {
 	color: #666;
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 28px;
 	font-weight: 400;
-	margin-top: 100px;
 	padding-bottom: 20px;
 	text-align: center;
 	text-transform: uppercase;
@@ -646,7 +648,7 @@ table {
 
 #contact {
 	margin-bottom: 100px;
-	margin-top: 240px;
+	margin-top: 80px;
 }
 
 #contact h1 {
@@ -654,9 +656,9 @@ table {
 	color: #666;
 	font-family: 'Avenir Next' sans-serif;
 	font-weight: 200;
-	font-size: 25px;
+	font-size: 30px;
 	margin: 50px auto;
-	padding-bottom: 10px; 
+	padding-bottom: 12px; 
 	text-align: center;
 	text-transform: uppercase;
 	width: 300px;
