@@ -105,7 +105,6 @@ table {
 }
 
 .bg img {
-	margin-top: 20px;
 	width: 100%;
 }
 
@@ -161,7 +160,7 @@ table {
 
 #nav li {
 	display: inline-block;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Avenir Next', sans-serif;
 	font-size: 18px;
 	font-weight: 100;
 	width: 100px;
@@ -237,9 +236,22 @@ table {
 	margin-top: 125px;
 }
 
+#main-text {
+	margin: -690px 0 645px auto;
+}
+
+#main-text h2 {
+	font-family: 'Avenir Next', sans-serif;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 100;
+	margin: 0 auto;
+	text-align: center;
+}
+
 #about {
 	margin-bottom: 100px;
-	margin-top: 240px;
+	margin-top: 220px;
 }
 
 #about h1 {
@@ -287,7 +299,7 @@ table {
 
 #menu {
 	margin-bottom: 50px;
-	margin-top: 162px;
+	margin-top: 125px;
 }
 
 #menu-intro {
@@ -315,7 +327,7 @@ table {
 
 #lunch {
 	margin-bottom: 50px;
-	margin-top: 162px;
+	margin-top: 125px;
 }
 
 #ramen-intro {
@@ -362,7 +374,7 @@ table {
 }
 
 #dinner {
-	margin-top: 162px;
+	margin-top: 125px;
 }
 
 #sm-cold-intro {
@@ -413,7 +425,7 @@ table {
 }
 
 #drink-menu {
-	margin-top: 162px;
+	margin-top: 125px;
 }
 
 #drinks-intro {
@@ -507,7 +519,7 @@ table {
 
 #happy-hour {
 	margin-bottom: 50px;
-	margin-top: 162px;
+	margin-top: 125px;
 }
 
 #hh-intro {
@@ -634,7 +646,7 @@ table {
 
 #contact {
 	margin-bottom: 100px;
-	margin-top: 260px;
+	margin-top: 240px;
 }
 
 #contact h1 {
