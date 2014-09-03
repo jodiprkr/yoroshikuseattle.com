@@ -237,13 +237,15 @@ table {
 }
 
 #main-text {
-	margin: -690px 0 645px auto;
+	margin: -390px 0 345px auto;
+	width: 520px;
 }
 
 #main-text h2 {
-	font-family: 'Avenir Next', sans-serif;
+	font-family: 'Avenir Next' sans-serif;
 	color: #fff;
-	font-size: 36px;
+	font-size: 38px;
+	font-style: normal;
 	font-weight: 100;
 	margin: 0 auto;
 	text-align: center;
@@ -257,7 +259,7 @@ table {
 #about h1 {
 	color: #666;
 	font-family: 'Avenir Next' sans-serif;
-	font-weight: 200;
+	font-weight: 100;
 	font-size: 34px;
 	margin-bottom: 15px;
 	text-align: center;
@@ -271,8 +273,9 @@ table {
 
 #about p {
 	color: rgba(0, 0, 0, .75);
-	font-family: 'Avenir Next', sans-serif;
+	font-family: 'Avenir Next' sans-serif;
 	font-size: 20px;
+	font-style: normal;
 	font-weight: 400;
 	line-height: 40px;
 	margin-bottom: 30px;
@@ -290,11 +293,8 @@ table {
 	font-weight: 100;
 }
 
-#about .italic {
-	color: #666;
-	font-family: 'Avenir Next', sans-serif;
-	font-size: 22px;
-	font-style: italic;
+#about span {
+	font-weight: 500;
 }
 
 #menu {
@@ -306,21 +306,18 @@ table {
 	background-color: rgba(102, 102, 102, 0.4);
 	border-radius: 2px;
 	border-style: solid;
-	border-width: 8px;
+	border-width: 6px;
 	border-color: #fff;
 	position: relative;
-	margin-bottom: 510px;
-	margin-top: -790px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	width: 100%;
+	margin: -790px auto 510px auto;
+	padding: 30px 10px;
 }
 
 #menu-intro h1 {
 	color: #fff;
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 40px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 50px;
 	text-align: center;
 }
@@ -647,8 +644,8 @@ table {
 }
 
 #contact {
-	margin-bottom: 100px;
-	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-top: 210px;
 }
 
 #contact h1 {
@@ -657,7 +654,7 @@ table {
 	font-family: 'Avenir Next' sans-serif;
 	font-weight: 200;
 	font-size: 30px;
-	margin: 50px auto;
+	margin: 50px auto 30px auto;
 	padding-bottom: 12px; 
 	text-align: center;
 	text-transform: uppercase;
@@ -668,12 +665,12 @@ table {
 	color: #33CC33;
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 20px;
-	margin: 30px 0 20px 0;
+	margin: 40px 0 20px 0;
 	text-align: center;
 }
 
 #contact h3 {
-	color: rgba(0, 0, 0, .85);
+	color: rgba(0, 0, 0, .7);
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 22px;
 	margin: 50px 0;
@@ -686,7 +683,7 @@ table {
 }
 
 #contact #email {
-	margin-bottom: 40px;
+	margin: 20px;
 }
 
 #contact p {
@@ -710,7 +707,15 @@ table {
 	color: #99CCFF;
 }
 
+.fa {
+	color: rgba(0, 0, 0, .8);
+	cursor: pointer;
+	display: block;
+	padding: 10px 0 15px 0;
+}
+
 .footer {
+	box-shadow: 0px 0px 5px #666;
 	display: block;
 	margin: 0 auto;
 	padding-top: 10px;
