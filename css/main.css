@@ -261,14 +261,12 @@ table {
 	font-family: 'Avenir Next' sans-serif;
 	font-weight: 100;
 	font-size: 34px;
-	margin-bottom: 15px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
 #about img {
 	box-shadow: 0px 0px 5px #666;
-	margin-top: 40px;
-	margin-bottom: 10px;
 }
 
 #about p {
@@ -283,7 +281,7 @@ table {
 }
 
 #about figure {
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 #about figcaption {
@@ -291,10 +289,23 @@ table {
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 18px;
 	font-weight: 100;
+	padding-top: 10px;
 }
 
-#about span {
-	font-weight: 500;
+#about blockquote {
+	color: #33CC33;
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 40px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+#about .fa {
+	color: rgba(255, 0, 0, .75);
+	display: inline-block;
 }
 
 #menu {
@@ -707,9 +718,12 @@ table {
 	color: #99CCFF;
 }
 
+#contact .fa {
+	cursor: pointer;
+}
+
 .fa {
 	color: rgba(0, 0, 0, .8);
-	cursor: pointer;
 	display: block;
 	padding: 10px 0 15px 0;
 }
@@ -737,10 +751,6 @@ table {
 	display: inline-block;
 	margin-top: 10px;
 	padding: 3px;
-}
-
-#social li a {
-	cursor: pointer;
 }
 
 #social li a:hover {
