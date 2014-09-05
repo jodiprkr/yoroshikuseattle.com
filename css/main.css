@@ -760,6 +760,10 @@ table {
 	-webkit-transition-duration: 500ms;
 }
 
+#social img {
+	cursor: pointer;
+}
+
 #error {
 	margin: -650px auto 490px auto;
 	position: relative;
