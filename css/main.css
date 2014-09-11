@@ -659,7 +659,7 @@ table {
 	font-weight: 100;
 	font-size: 30px;
 	font-style: normal;
-	margin: 100px auto 30px auto;
+	margin: 100px auto 0 auto;
 	padding-bottom: 12px; 
 	text-align: center;
 	text-transform: uppercase;
@@ -672,7 +672,7 @@ table {
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 300;
-	margin: 40px 0 16px 0;
+	margin: 60px auto 20px auto;
 	text-align: center;
 }
 
@@ -682,13 +682,9 @@ table {
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
-	margin: 50px 0;
+	margin: 70px 0 125px 0;
 	text-align: center;
 	text-transform: uppercase;
-}
-
-#contact #email {
-	margin: 20px;
 }
 
 #contact p {
@@ -697,7 +693,7 @@ table {
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 300;
-	padding: 12px 0; 
+	padding: 16px 0; 
 	text-align: center;
 }
 
@@ -714,14 +710,23 @@ table {
 	color: #99CCFF;
 }
 
-#contact .fa {
-	cursor: pointer;
-}
-
 .fa {
 	color: rgba(0, 0, 0, .8);
+	cursor: pointer;
 	display: block;
 	padding: 10px 0 15px 0;
+}
+
+#contact #phone .fa {
+	cursor: default;
+}
+
+#phone {
+	margin: 30px auto;
+}
+
+#email {
+	margin: 30px auto;
 }
 
 #icons {
