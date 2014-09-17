@@ -217,19 +217,20 @@ article>.inner {
 #home {
 	background: url(../img/home.png);
 	background-size: cover;
-	height: 750px;
+	height: 630px;
 	margin-top: 125px;
 }
 
 #home h2 {
-	font-family: "omnes-pro", sans-serif;
 	color: rgba(255, 255, 255, .95);
+	font-family: "omnes-pro", sans-serif;
+	float: right;
 	font-size: 38px;
 	font-style: normal;
 	font-weight: 200;
 	margin: 0 auto;
-	text-align: center;
-	width: 520px;
+	padding: 20px;
+	text-align: right;
 }
 
 #about {
@@ -408,7 +409,7 @@ article>.inner {
 	font-size: 60px;
 	font-weight: 100;
 	line-height: 70px;
-	padding: 50px;
+	padding: 30px;
 	text-align: left;
 	text-transform: uppercase;
 	width: 310px;
@@ -421,25 +422,31 @@ article>.inner {
 }
 
 .tsuke h1 {
-	color: #2E2E2E;
+	color: #fff;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	font-weight: 100;
 	line-height: 60px;
-	text-align: left;
+	text-align: right;
 	text-transform: uppercase;
 }
 
 .tsuke h2 {
-	color: rgba(0, 0, 0, .75);
+	color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-size: 50px;
 	font-style: normal;
 	font-weight: 100;
 	line-height: 60px;
 	padding-top: 10px;
-	text-align: left;
+	text-align: right;
 	text-transform: uppercase;
+}
+
+.tsuke .inner {
+	float: right;
+	padding: 50px;
+	margin: 330px auto 0 auto;
 }
 
 .additions {
@@ -457,10 +464,12 @@ article>.inner {
 
 #cold h1 {
 	color: #fff;
+	float: right;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	font-weight: 100;
 	line-height: 65px;
+	padding: 50px;
 	text-transform: uppercase;
 }
 
@@ -476,6 +485,7 @@ article>.inner {
 	font-size: 60px;
 	font-weight: 100;
 	line-height: 70px;
+	padding: 30px;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -507,7 +517,7 @@ article>.inner {
 #drinks h1 {
 	color: #fff;
 	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
+	font-size: 100px;
 	font-weight: 100;
 	line-height: 60px;
 	text-transform: uppercase;
@@ -594,7 +604,8 @@ article>.inner {
 	font-size: 60px;
 	font-weight: 100;
 	line-height: 65px;
-	text-align: right;
+	padding: 30px;
+	text-align: left;
 	text-transform: uppercase;
 }
 
