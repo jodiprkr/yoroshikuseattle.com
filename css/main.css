@@ -62,6 +62,25 @@ table {
 /* Style 
 /////////////////////////////////////////////////////////////////// */
 
+article {
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+
+article>.inner {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 100px 0;
+}
+
+#content {
+	height: 100%;
+	width: 100%;
+}
 
 .wrap-sm {
 	margin: 0 auto;
@@ -70,42 +89,12 @@ table {
 
 .wrap-med {
 	margin: 0 auto;
-	width: 900px;
-}
-
-.wrap-med img {
-	width: 100%;
+	width: 920px;
 }
 
 .wrap-lg {
 	margin: 0 auto;
 	max-width: 3000px;
-	min-width: 1440px;
-}
-
-.wrap-col-1 {
-	margin: 0 500px 0 20px;
-	width: 500px;
-}
-
-.wrap-col-2 {
-	margin-left: 800px;
-}
-
-.wrap-col-3 {
-	margin: 0 auto;
-	max-width: 1200px;
-	min-width: 1200px;
-}
-
-.bg {
-	margin: 0 auto;
-	max-width: 3000px;
-	min-width: 600px;
-}
-
-.bg img {
-	width: 100%;
 }
 
 .group:after {
@@ -225,16 +214,14 @@ table {
 	color: rgba(0, 0, 0, .8);
 }
 
-#main {
+#home {
+	background: url(../img/home.png);
+	background-size: cover;
+	height: 750px;
 	margin-top: 125px;
 }
 
-#main-text {
-	margin: -390px 0 345px auto;
-	width: 520px;
-}
-
-#main-text h2 {
+#home h2 {
 	font-family: "omnes-pro", sans-serif;
 	color: rgba(255, 255, 255, .95);
 	font-size: 38px;
@@ -242,11 +229,11 @@ table {
 	font-weight: 200;
 	margin: 0 auto;
 	text-align: center;
+	width: 520px;
 }
 
 #about {
-	margin-bottom: 100px;
-	margin-top: 220px;
+	margin-top: 150px;
 }
 
 #about h1 {
@@ -285,6 +272,7 @@ table {
 	font-style: normal;
 	font-weight: 200;
 	padding-top: 10px;
+	text-align: left;
 }
 
 #about blockquote {
@@ -304,7 +292,9 @@ table {
 }
 
 #menu {
-	margin-bottom: 50px;
+	background: url(../img/menu-main.jpg);
+	background-size: cover;
+	height: 750px;
 	margin-top: 125px;
 }
 
@@ -315,7 +305,6 @@ table {
 	border-width: 6px;
 	border-color: #fff;
 	position: relative;
-	margin: -790px auto 510px auto;
 	padding: 30px 15px;
 }
 
@@ -326,224 +315,6 @@ table {
 	font-style: normal;
 	font-weight: 200;
 	line-height: 50px;
-	text-align: center;
-}
-
-#lunch {
-	margin-top: 125px;
-}
-
-#ramen-intro {
-	margin: -680px auto 577px auto;
-	padding: 30px;
-	position: relative;
-}
-
-#ramen-intro h1 {
-	color: #fff;
-	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
-	font-weight: 100;
-	line-height: 70px;
-	text-align: left;
-	text-transform: uppercase;
-}
-
-#tsuke-intro {
-	margin: -530px 0 437px 0;
-	padding: 30px;
-	position: relative;
-}
-
-#tsuke-intro h1 {
-	color: #2E2E2E;
-	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
-	font-weight: 100;
-	line-height: 60px;
-	text-align: left;
-	text-transform: uppercase;
-}
-
-#tsuke-intro h2 {
-	color: rgba(0, 0, 0, .75);
-	font-family: 'Lato', sans-serif;
-	font-size: 50px;
-	font-style: normal;
-	font-weight: 100;
-	line-height: 60px;
-	padding-top: 10px;
-	text-align: left;
-	text-transform: uppercase;
-}
-
-#dinner {
-	margin-top: 125px;
-}
-
-#cold-intro {
-	margin: -650px 0 682px 200px;
-	position: relative;
-	width: 400px;
-}
-
-#cold-intro h1 {
-	color: #fff;
-	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
-	font-weight: 100;
-	line-height: 65px;
-	text-transform: uppercase;
-}
-
-#hot-intro {
-	margin: -680px 0 647px 0;
-	padding: 30px;
-	position: relative;
-	width: 300px;
-}
-
-#hot-intro h1 {
-	color: #2E2E2E;
-	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
-	font-weight: 100;
-	line-height: 70px;
-	text-align: left;
-	text-transform: uppercase;
-}
-
-#dessert-intro {
-	margin: -610px 0 636px 80px;
-	position: relative;
-}
-
-#dessert-intro h1 {
-	color: #fff;
-	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
-	font-weight: 100;
-	line-height: 70px;
-	text-align: left;
-	text-transform: uppercase;
-}
-
-#drink-menu {
-	margin-top: 125px;
-}
-
-#drinks-intro {
-	margin-bottom: 512px;
-	margin-top: -475px;
-	position: relative;
-	width: 500px;
-}
-
-#drinks-intro h1 {
-	color: #fff;
-	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
-	font-weight: 100;
-	line-height: 60px;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.drinks {
-	margin: 100px 0;
-}
-
-.drinks h2 {
-	border-bottom: 1px solid #33CC33;
-	color: #666;
-	font-family: "omnes-pro", sans-serif;
-	font-size: 32px;
-	font-style: normal;
-	font-weight: 200;
-	margin-bottom: 25px;
-	margin-top: 100px;
-	padding-bottom: 25px;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.drinks h3 {
-	color: rgba(0, 0, 0, 1);
-	font-family: "omnes-pro", sans-serif;
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 33px;
-	margin: 0 auto 50px auto;
-	padding: 10px 0;
-	text-align: center;
-	width: 375px;
-}
-
-.drinks ol {
-	margin-top: 40px;
-}
-
-.drinks li {
-	color: rgba(0, 0, 0, 1);
-	font-family: "omnes-pro", sans-serif;
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 300;
-	line-height: 40px;
-	text-align: center;
-}
-
-.drinks p {
-	font-family: 'Lato', sans-serif;
-	font-size: 22px;
-	font-style: normal;
-	font-weight: 100;
-	line-height: 50px;
-	margin-bottom: 40px;
-	text-align: center;
-}
-
-.drinks .price {
-	color: rgba(0, 0, 0, .5);
-	font-size: 19px;
-	font-weight: 100;
-}
-
-.drinks .detail {
-	color: rgba(0, 0, 0, .8);
-	font-family: 'Lato', sans-serif;
-	font-size: 23px;
-	font-style: normal;
-	font-weight: 100;
-	line-height: 40px;
-	text-align: center;
-}
-
-#happy-hour {
-	margin-bottom: 50px;
-	margin-top: 125px;
-}
-
-#hh-intro {
-	margin-bottom: 600px;
-	margin-top: -600px ;
-	padding-right: 50px;
-	position: relative;
-}
-
-#hh-intro h1 {
-	color: #2E2E2E;
-	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
-	font-weight: 100;
-	line-height: 65px;
-	text-align: right;
-	text-transform: uppercase;
-}
-
-.menu-items {
-	margin: 100px auto;
 }
 
 .menu-items h1 {
@@ -553,7 +324,6 @@ table {
 	font-style: normal;
 	line-height: 44px;
 	margin: 0 auto;
-	text-align: center;
 }
 
 .menu-items h2 {
@@ -563,10 +333,8 @@ table {
 	font-weight: 100;
 	font-size: 34px;
 	font-style: normal;
-	margin-top: 120px;
 	margin-bottom: 40px;
 	padding-bottom: 25px;
-	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -627,9 +395,223 @@ table {
 	margin-bottom: 40px;
 }
 
+.ramen {
+	background: url(../img/ramen.jpg);
+	background-size: cover;
+	height: 750px;
+	margin-top: 125px;
+}
+
+.ramen h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 70px;
+	padding: 50px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 310px;
+}
+
+.tsuke {
+	background: url(../img/tsuke.jpg);
+	background-size: cover;
+	height: 750px;
+}
+
+.tsuke h1 {
+	color: #2E2E2E;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 60px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.tsuke h2 {
+	color: rgba(0, 0, 0, .75);
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 100;
+	line-height: 60px;
+	padding-top: 10px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.additions {
+	background: url(../img/adds.jpg);
+	background-size: cover;
+	height: 820px;
+}
+
+#cold {
+	background: url(../img/cold.jpg);
+	background-size: cover;
+	height: 820px;
+	margin-top: 125px;
+}
+
+#cold h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 65px;
+	text-transform: uppercase;
+}
+
+#hot {
+	background: url(../img/hot.jpg);
+	background-size: cover;
+	height: 820px;
+}
+
+#hot h1 {
+	color: #2E2E2E;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 70px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#dessert {
+	background: url(../img/dessert.jpg);
+	background-size: cover;
+	height: 820px;
+}
+
+#dessert h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 70px;
+	padding: 50px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#drinks {
+	background: url(../img/drinks.jpg);
+	background-size: cover;
+	height: 820px;
+	margin-top: 125px;
+}
+
+#drinks h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 60px;
+	text-transform: uppercase;
+}
+
+#drink-text h2 {
+	border-bottom: 1px solid #33CC33;
+	color: #666;
+	font-family: "omnes-pro", sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 200;
+	margin-bottom: 25px;
+	margin-top: 100px;
+	padding-bottom: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#drink-text h3 {
+	color: rgba(0, 0, 0, 1);
+	font-family: "omnes-pro", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px;
+	margin: 0 auto 50px auto;
+	padding: 10px 0;
+	width: 420px;
+}
+
+#drink-text ol {
+	margin-top: 40px;
+}
+
+#drink-text li {
+	color: rgba(0, 0, 0, 1);
+	font-family: "omnes-pro", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 40px;
+}
+
+#drink-text p {
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 100;
+	line-height: 50px;
+	margin-bottom: 40px;
+}
+
+#drink-text .price {
+	color: rgba(0, 0, 0, .5);
+	font-size: 19px;
+	font-weight: 100;
+}
+
+#drink-text .detail {
+	color: rgba(0, 0, 0, .8);
+	font-family: 'Lato', sans-serif;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 100;
+	line-height: 40px;
+}
+
+#drink-text sup {
+	color: #33CC33;
+}
+
+#happy-hour {
+	background: url(../img/hot.jpg);
+	background-size: cover;
+	height: 820px;
+	margin-bottom: 50px;
+	margin-top: 125px;
+}
+
+#happy-hour h1 {
+	color: #2E2E2E;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 65px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+#hh-intro {
+	margin-bottom: 100px;
+}
+
+#hh-intro h1 {
+	font-family: "omnes-pro", sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 50px;
+}
 
 #disclaimers {
-	margin: 100px auto 40px auto;
+	margin: 20px auto 40px auto;
 	padding: 20px;
 }
 
@@ -648,8 +630,7 @@ table {
 }
 
 #contact {
-	margin-bottom: 80px;
-	margin-top: 250px;
+	margin-top: 120px;
 }
 
 #contact h1 {
@@ -660,8 +641,7 @@ table {
 	font-size: 30px;
 	font-style: normal;
 	margin: 100px auto 0 auto;
-	padding-bottom: 12px; 
-	text-align: center;
+	padding-bottom: 12px;
 	text-transform: uppercase;
 	width: 300px;
 }
@@ -673,7 +653,6 @@ table {
 	font-style: normal;
 	font-weight: 300;
 	margin: 60px auto 20px auto;
-	text-align: center;
 }
 
 #contact h3 {
@@ -682,8 +661,7 @@ table {
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
-	margin: 70px 0 125px 0;
-	text-align: center;
+	margin-top: 70px;
 	text-transform: uppercase;
 }
 
@@ -693,8 +671,7 @@ table {
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 300;
-	padding: 16px 0; 
-	text-align: center;
+	padding: 16px 0;
 }
 
 #contact span {
@@ -740,14 +717,14 @@ table {
 	padding: 20px;
 }
 
-.footer {
+footer {
 	box-shadow: 0px 0px 5px #666;
 	display: block;
 	margin: 0 auto;
 	padding-top: 10px;
 }
 
-.footer p {
+footer p {
 	color: #666;
 	font-family: 'Arial', sans-serif;
 	font-size: 11px;
@@ -777,7 +754,10 @@ table {
 }
 
 #error {
-	margin: -650px auto 490px auto;
+	background: url(../img/jump.jpg);
+	background-size: cover;
+	height: 750px;
+	margin-top: 120px;
 	position: relative;
 }
 
@@ -787,7 +767,6 @@ table {
 	font-size: 60px;
 	font-weight: 100;
 	line-height: 75px;
-	text-align: center;
 	text-transform: uppercase;
 }
 
