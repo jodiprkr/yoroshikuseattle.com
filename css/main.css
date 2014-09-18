@@ -331,10 +331,22 @@ article>.inner {
 	border-bottom: 1px solid #33CC33;
 	color: #666;
 	font-family: "omnes-pro", sans-serif;
-	font-weight: 100;
+	font-weight: 200;
 	font-size: 34px;
 	font-style: normal;
 	margin-bottom: 40px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+}
+
+.menu-items h3 {
+	border-bottom: 1px solid #33CC33;
+	color: #666;
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 200;
+	font-size: 34px;
+	font-style: normal;
+	margin: 80px auto 40px auto;
 	padding-bottom: 25px;
 	text-transform: uppercase;
 }
@@ -396,11 +408,14 @@ article>.inner {
 	margin-bottom: 40px;
 }
 
+#lunch {
+	margin-top: 125px;
+}
+
 .ramen {
 	background: url(../img/ramen.jpg);
 	background-size: cover;
 	height: 750px;
-	margin-top: 125px;
 }
 
 .ramen h1 {
@@ -523,6 +538,20 @@ article>.inner {
 	text-transform: uppercase;
 }
 
+#drink-text h1 {
+	border-bottom: 1px solid #33CC33;
+	color: #666;
+	font-family: "omnes-pro", sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 200;
+	margin-bottom: 25px;
+	margin-top: 50px;
+	padding-bottom: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 #drink-text h2 {
 	border-bottom: 1px solid #33CC33;
 	color: #666;
@@ -609,11 +638,7 @@ article>.inner {
 	text-transform: uppercase;
 }
 
-#hh-intro {
-	margin-bottom: 100px;
-}
-
-#hh-intro h1 {
+#hh-text h1 {
 	font-family: "omnes-pro", sans-serif;
 	font-size: 32px;
 	font-style: normal;
@@ -621,9 +646,12 @@ article>.inner {
 	line-height: 50px;
 }
 
+#hh-text h2 {
+	margin: 120px auto 40px auto; 
+}
+
 .disclaimers {
 	margin: 120px auto 0 auto;
-	width: 100%;
 }
 
 .disclaimers h4 {
