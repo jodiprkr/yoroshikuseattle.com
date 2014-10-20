@@ -231,7 +231,7 @@ article>.inner {
 	margin: 0 auto;
 	padding: 20px;
 	text-align: right;
-	text-shadow: 2px 2px 6px #000;
+	text-shadow: -2px 3px 3px #000;
 }
 
 #about {
@@ -313,7 +313,7 @@ article>.inner {
 #menu-intro h1 {
 	color: #fff;
 	font-family: "omnes-pro", sans-serif;
-	font-size: 40px;
+	font-size: 36px;
 	font-style: normal;
 	font-weight: 200;
 	line-height: 50px;
@@ -570,13 +570,13 @@ article>.inner {
 #drink-text h3 {
 	color: rgba(0, 0, 0, 1);
 	font-family: "omnes-pro", sans-serif;
-	font-size: 26px;
+	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 33px;
 	margin: 0 auto 50px auto;
 	padding: 10px 0;
-	width: 420px;
+	width: 400px;
 }
 
 #drink-text ol {
@@ -650,6 +650,18 @@ article>.inner {
 #hh-text h2 {
 	line-height: 40px;
 	margin: 120px auto 40px auto; 
+}
+
+#hh-text #attn {
+	border: 2px solid #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 100;
+	line-height: 32px;
+	margin-bottom: 120px;
+	padding: 30px 20px;
+	text-align: center;
 }
 
 #hh-text .bold {
