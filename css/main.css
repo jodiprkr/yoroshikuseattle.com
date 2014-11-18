@@ -116,7 +116,11 @@ article>.inner {
 #logo {
 	margin: 0 auto;
 	padding-top: 20px;
-	width: 415px;
+	width: 300px;
+}
+
+#logo img {
+	cursor: pointer;
 }
 
 #logo a {
@@ -287,7 +291,7 @@ article>.inner {
 	background: url(../img/menu-main.jpg);
 	background-size: cover;
 	height: 750px;
-	margin-top: 145px;
+	margin-top: 130px;
 }
 
 #menu-intro {
@@ -400,7 +404,7 @@ article>.inner {
 }
 
 #lunch {
-	margin-top: 145px;
+	margin-top: 130px;
 }
 
 .ramen {
@@ -465,7 +469,7 @@ article>.inner {
 	background: url(../img/cold.jpg);
 	background-size: cover;
 	height: 820px;
-	margin-top: 145px;
+	margin-top: 130px;
 }
 
 #cold h1 {
@@ -517,7 +521,7 @@ article>.inner {
 	background: url(../img/drinks.jpg);
 	background-size: cover;
 	height: 820px;
-	margin-top: 145px;
+	margin-top: 130px;
 }
 
 #drinks h1 {
@@ -615,7 +619,7 @@ article>.inner {
 	background-size: cover;
 	height: 820px;
 	margin-bottom: 50px;
-	margin-top: 145px;
+	margin-top: 130px;
 }
 
 #happy-hour h1 {
