@@ -124,8 +124,8 @@ article>.inner {
 
 #logo {
 	margin: 0 auto;
-	padding-top: 20px;
-	width: 305px;
+	padding-top: 15px;
+	width: 318px;
 }
 
 #logo img {
@@ -138,7 +138,7 @@ article>.inner {
 
 #nav {
 	margin: 0 auto;
-	width: 435px;
+	width: 520px;
 }
 
 #nav li {
@@ -156,7 +156,8 @@ article>.inner {
 	text-decoration: none;
 	color: #666;
 	display: block;
-	padding: 20px 10px 20px 10px;
+	padding: 15px 10px 20px 10px;
+	outline: none;
 }
 
 #nav a:hover {
@@ -777,6 +778,14 @@ article>.inner {
 	display: inline-block;
 	margin: 0 auto;
 	padding: 20px;
+}
+
+#icons h4 {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	font-style: normal;
 }
 
 footer {
